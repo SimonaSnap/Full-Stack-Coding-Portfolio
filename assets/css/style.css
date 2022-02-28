@@ -1,3 +1,82 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.5;
+}
+
+/*fixing the top banner*/
+.toppart {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    background-color: aquamarine;
+    column-width: 300vh;
+}
+
+.toppart h1{
+    font-size: 200%;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.toppart h3 {
+    font-size: 145%;
+    padding: 0 3%;
+}
+
 nav {
+    float: right;
+    margin-right: 3%;
+}
+
+li {
+    display: inline;
+    font-size: 125%;
+}
+
+/*main part of the webpage*/
+h2 {
+    width: 100vh;
+    font-size: 175%;
+    margin-top: 2%;
+    padding: 0 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section {
+    width: 100%;
+    align-self: center;
+}
+
+.card {
+    background-color: lightyellow;
     display: inline-block;
+    padding: 3%;
+    margin: 3%;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    align-items: center;
+}
+
+#card1 {
+    width: 35%;
+}
+
+#card2 {
+    width: 35%;
+}
+
+#card3 {
+    width: 35%;
+}
+
+#card4 {
+    width: 35%;
+}
+
+/*the bottom footer section with copyright and contact info */
+
+footer {
+    width: 100vh;
+    padding: 3%;
 }
