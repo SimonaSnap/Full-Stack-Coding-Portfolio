@@ -11,6 +11,7 @@ body {
     width: 100%;
     background-color: var(--darkGray);
     color: palegoldenrod;
+    line-height: 1.5;
 }
 
 header {
@@ -61,6 +62,7 @@ h1 {
     width: 30%;
     height: 100%;
     text-align: start;
+    border-right: 1pt solid palegoldenrod;
 }
 
 #about p {
@@ -76,14 +78,28 @@ h1 {
     text-align: center;
 }
 
+.works {
+    display: flex;
+    width: 65%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
 #big-project {
-    width: 67%;
+    width: 96%;
     justify-content: baseline;
 }
 
+.halfsize {
+    width: 47%;
+}
+
+.card {
+    border: .5pt solid palegoldenrod;
+    border-radius: 10pt;
+}
 
 #gallery div {
-    border: 1pt solid red;
     margin: 1%;
 }
 
