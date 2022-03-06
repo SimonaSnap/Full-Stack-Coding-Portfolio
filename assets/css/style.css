@@ -1,5 +1,4 @@
 :root {
-    --paleBlue: #91CBCC;
     --darkGray: #30343D;
 }
 
@@ -58,9 +57,13 @@ section {
     margin: 3%;
 }
 
+#about img {
+    border-radius: 150px;
+    margin-top: 1%;
+}
+
 h1 {
     width: 30%;
-    height: 100%;
     text-align: start;
     border-right: 1pt solid palegoldenrod;
 }
@@ -86,22 +89,27 @@ h1 {
 }
 
 #big-project {
-    width: 96%;
+    width: 94%;
     justify-content: baseline;
 }
 
 .halfsize {
-    width: 47%;
+    width: 45%;
 }
 
 .card {
     border: .5pt solid palegoldenrod;
     border-radius: 10pt;
+    color: var(--darkGray);
+    background-color: rgb(238, 232, 170, .6);
+    padding: 1%;
 }
+
 
 #gallery div {
     margin: 1%;
 }
+
 
 footer {
     width: 100%;
