@@ -13,24 +13,14 @@ body {
     line-height: 1.5;
 }
 
+/*This is the top section, targets my full name and the navigation */
+
 header {
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 1% 3%;
     background-color: rgb(145, 203, 204, .5);
-}
-
-.hero {
-    background-image: url(../images/pattern.jfif);
-    display: flex;
-    justify-content: end;
-}
-
-.hero h2 {
-    margin: 2%;
-    color: palegoldenrod;
-    border-right: none;
 }
 
 ul {
@@ -48,9 +38,29 @@ a{
     color: palegoldenrod;
 }
 
+/*This targets the blue banner image with UX designer written on top, as in my "position/title" */
+
+.hero {
+    background-image: url(../images/pattern.jfif);
+    display: flex;
+    justify-content: end;
+}
+
+.hero h2 {
+    margin: 2%;
+    color: palegoldenrod;
+    border-right: none;
+}
+
+
+/*setting the sections here to 100% width before having to tackle them later with flexbox*/
+
 section {
     width: 100%;
 }
+
+/*this targets the about section, I have no idea what to write currently for the paragraphs so using star wars ipsum
+.. i place an image inside an h2 tag to keep it on the same side of the line i created... but that is something to try and prevent in the future */
 
 #about{
     display:flex;
@@ -75,6 +85,8 @@ h2 {
     margin-left: 2%;
 }
 
+/*the mess that is the gallery of works, making sure that its one larger project above four smaller ones */
+
 #gallery {
     display: flex;
     flex-wrap: wrap;
@@ -90,6 +102,8 @@ h2 {
     flex-wrap: wrap;
     flex-direction: row;
 }
+
+/* yum yum the larger project */
 
 #big-project {
     width: 94%;
@@ -114,6 +128,10 @@ h2 {
 }
 
 
+/*footer... 
+
+need to link email and others... i dont have a twitter or spotify though... instagram maybe and portfolio site?*/
+
 footer {
     display: flex;
     width: 100%;
@@ -125,6 +143,8 @@ footer {
     padding-right: 3%;
 }
 
-@media screen  {
+/* start of media query section */
+
+@media screen and (max-width: 1281px;) {
     
 }
