@@ -20,14 +20,13 @@ header {
     justify-content: space-between;
     background-color: var(--teal);
     padding-top: 5%;
-    ;
 }
 
 #name {
     display: flex;
     flex-direction: column;
     color: whitesmoke;
-    padding-left: 4%;
+    padding-left: 6%;
 }
 
 #name h3 {
@@ -108,7 +107,7 @@ nav h5 {
     display: flex;
     width: 35%;
     flex-direction: column;
-    padding-left: 4%;
+    padding-left: 6%;
 }
 
 .mainproject h3 {
@@ -145,12 +144,73 @@ nav h5 {
     display: flex;
     width: 75%;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-right: 4%;
     align-items: flex-end;
-    margin: 1%;
 }
 
 .threeprojects h4 {
     font-size: 18pt;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--teal);
+    padding-top: 5%;
+    font-family: "IBM Plex Mono", monospace;
+    color: whitesmoke;
+}
+
+#personal {
+    padding-left: 6%;
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    padding-bottom: 4%;
+}
+
+#personal a {
+    color: whitesmoke;
+}
+
+footer h3 {
+    font-weight: 500;
+    font-size: 16pt;
+}
+
+#personal img {
+    border-radius: 55pt;
+    padding-bottom: 1%;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    padding-bottom: 4%;
+    padding-right: 16%;
+}
+
+#links a {
+    color: whitesmoke;
 }
