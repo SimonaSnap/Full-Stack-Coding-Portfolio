@@ -20,7 +20,7 @@ A portfolio of my work. It includes a brief visual of 4 Design projects and 4 Co
     Also how to link navigation to specific ids used in the html file
 
 ## Screenshot of deployed page:
-![A picture of the deployed HTML file](/assets/images/Portfoliodeployedpage.png "Portfolio Screenshot")
+![A picture of the deployed HTML file](./assets/images/PortfolioDeployedPage.png "Portfolio Screenshot")
 
 
 

@@ -60,6 +60,15 @@ nav a {
     color: whitesmoke;
 }
 
+nav h5 {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+nav h5:hover {
+    box-shadow: inset 0px 0px 8px var(--purple), 0 0 15px var(--purple);
+}
+
 #about {
     display: flex;
     flex-direction: column;
@@ -151,6 +160,15 @@ nav a {
     align-items: flex-start;
 }
 
+.single img {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+.single img:hover {
+    box-shadow: inset 0px 0px 8px var(--teal), 0 0 15px var(--teal);
+}
+
 .threeprojects h4 {
     font-size: 18pt;
 }
@@ -215,4 +233,14 @@ footer h3 {
 
 #contact a {
     color: whitesmoke;
+}
+
+
+footer a {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+footer a:hover {
+    box-shadow: inset 0px 0px 8px var(--purple), 0 0 15px var(--purple);
 }
