@@ -22,6 +22,9 @@ A portfolio of my work. It includes a brief visual of 4 Design projects and 4 Co
 ## Screenshot of deployed page:
 ![A picture of the deployed HTML file](./assets/images/PortfolioDeployedPage.png "Portfolio Screenshot")
 
+## Video of the hover effect:
+![A video of the hover effect](./assets/images/Portfolio%20Simona.gif "Hover Effect")
+
 
 
     Copyright (c) 2022 Simona Snap
