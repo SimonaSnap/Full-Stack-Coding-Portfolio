@@ -89,6 +89,8 @@ nav h5:hover {
     padding-right: 7%;
 }
 
+/* This has to do with the two main body sections
+one big project on the left, followed by three smaller projects */
 #UX {
     display: flex;
     width: 100%;
@@ -191,6 +193,8 @@ nav h5:hover {
     width: 32%;
 }
 
+/*footer styling */
+
 footer {
     width: 100%;
     display: flex;
@@ -243,4 +247,113 @@ footer a {
 
 footer a:hover {
     box-shadow: inset 0px 0px 8px var(--purple), 0 0 15px var(--purple);
+}
+
+/*media queries */
+@media screen and (max-width: 1627px) {
+    #weather img {
+        width: 175px;
+    }
+
+    #planner img {
+        width: 175px;
+    }
+
+    #password img {
+        width: 185px;
+    }
+}
+
+@media screen and (max-width: 1345px) {
+    .threeprojects {
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .mainproject {
+        width: 50%;
+    }
+
+    .single {
+        padding-bottom: 7%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1099px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 977px) {
+    section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .mainproject {
+        width: 70%;
+        padding-left: 1%;
+        justify-content: flex-start;
+        padding-right: 10%;
+    }
+
+    .threeprojects {
+        width: 100%;
+        padding-left: 1%;
+        justify-content: flex-start;
+        padding-right: 5%;
+    }
+}
+
+@media screen and (max-width: 708px) {
+    section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .mainproject {
+        width: 70%;
+        justify-content: flex-start;
+        padding-right: 10%;
+    }
+
+    .first .second .third {
+        width: 100%;
+        justify-content: flex-start;
+        padding-right: 25%;
+    }
+}
+
+@media screen and (max-width: 464px) {
+    section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding-left: 0%;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    #contact {
+        padding-left: 10%;
+    }
+
+    #name h3 {
+        font-size: 36pt;
+    }
 }
